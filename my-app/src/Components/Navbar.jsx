@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css'; // Import the CSS file for styling
+
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -25,5 +25,8 @@ const Navbar = () => {
     </nav>
   );
 };
+
+
+
 
 export default Navbar;
