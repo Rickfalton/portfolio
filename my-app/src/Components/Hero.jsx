@@ -1,41 +1,14 @@
 import React from 'react';
+import './Hero.css'; // Import the CSS file
 
 const Hero = () => {
-    const styles = {
-        hero: {
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100vh',
-            backgroundColor: '#282c34',
-            color: 'white',
-            textAlign: 'center',
-        },
-        title: {
-            fontSize: '3rem',
-            marginBottom: '1rem',
-        },
-        subtitle: {
-            fontSize: '1.5rem',
-            marginBottom: '1rem',
-        },
-        button: {
-            padding: '0.5rem 1rem',
-            fontSize: '1rem',
-            backgroundColor: '#61dafb',
-            border: 'none',
-            borderRadius: '5px',
-            cursor: 'pointer',
-        },
-    };
-
     return (
-        <section style={styles.hero}>
+        <section className="hero">
             <div>
-                <h1 style={styles.title}>RICKFALTON ODHIAMBO</h1>
-                <p style={styles.subtitle}>Bio</p>
-                <p style={styles.subtitle}>SKILLS</p>
-                <button style={styles.button}>Learn More</button>
+                <h1 className="hero-title">RICKFALTON ODHIAMBO</h1>
+                <p className="hero-subtitle">Bio</p>
+                <p className="hero-subtitle">SKILLS</p>
+                <button className="hero-button">Learn More</button>
             </div>
         </section>
     );
