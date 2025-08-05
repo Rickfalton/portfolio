@@ -9,6 +9,7 @@ const About = () => {
                 Hi, I'm Rickfalton Odhiambo, a passionate developer with expertise in building modern web applications.
             </p>
         </section>
+        
     );
 };
 

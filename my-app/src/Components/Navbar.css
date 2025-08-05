@@ -21,8 +21,8 @@
   }
   
   .nav-links a {
-    color: white;
-    text-decoration: none;
+    color: rgb(175, 219, 224);
+    text-decoration: underline;
     font-size: 1rem;
   }
   
@@ -31,7 +31,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #444;
+    background-color: hsl(0, 13%, 91%);
     padding: 1rem;
     border-radius: 5px;
   }
@@ -42,7 +42,7 @@
     cursor: pointer;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .nav-links {
       display: none;
       flex-direction: column;

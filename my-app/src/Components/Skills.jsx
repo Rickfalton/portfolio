@@ -6,12 +6,7 @@ const Skills = () => {
         <section className="skills">
             <h2>Skills</h2>
             <ul>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Python</li>
-                <li>CSS</li>
-                <li>SQLALCHEMY</li>
-                <li>Mysql</li>
+                <li>JavaScript | ReactJS| Python | Postgresql | SQLALCHEMY | Flask</li>
             </ul>
         </section>
     );

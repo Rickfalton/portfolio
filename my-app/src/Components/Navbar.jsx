@@ -24,6 +24,7 @@ const Navbar = () => {
           {isMobile ? '✖' : '☰'}
         </button>
       </div>
+      
     </nav>
   );
 };

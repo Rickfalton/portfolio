@@ -1,13 +1,14 @@
 .skills {
     padding: 2rem;
     background-color: #f9f9f9;
-    text-align: center;
+    text-align: center
 }
 
 .skills h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #333;
+    text-shadow: #f9f9f9;
 }
 
 .skills ul {
