@@ -1,0 +1,19 @@
+.skills {
+    padding: 2rem;
+    background-color: #f5d93b;
+    text-align: center
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0e032c;
+    text-shadow: #f9f9f9;
+}
+
+
+.skills li {
+    font-size: 2rem;
+    color: #131212;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,94 @@
+.projects {
+    padding: 2rem;
+    background-color: #110d31dc;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f7f4f4;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: left;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #070707;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #070707;
+}
+/* ...existing code... */
+
+.social-buttons {
+  display: flex;
+  gap: 1rem; /* space between buttons */
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* ...existing code... */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.9rem;
+  background-color: #f5d93b;
+  color: #030c18;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: background-color 150ms ease, transform 80ms ease, box-shadow 150ms ease;
+  cursor: pointer; /* ensure pointer */
+}
+
+/* filled hover (make visually different) */
+.btn:hover,
+.btn:focus {
+  background-color: #e0c02d; /* darker on hover */
+  transform: translateY(-2px);
+  color: #030c18;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* outline variation */
+.btn.btn-outline {
+  background-color: transparent;
+  color: #d0d4da;
+  border-color: #0b63ce;
+}
+
+/* outline hover (visible) */
+.btn.btn-outline:hover,
+.btn.btn-outline:focus {
+  background-color: rgba(11,99,206,0.10);
+  color: #fff;
+  border-color: #0b63ce;
+  transform: translateY(-2px);
+}
+
+/* keyboard focus visible */
+.btn:focus-visible,
+.btn.btn-outline:focus-visible {
+  box-shadow: 0 0 0 4px rgba(11,99,206,0.18);
+}
